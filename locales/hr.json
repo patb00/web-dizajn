@@ -1,0 +1,76 @@
+{
+  "about": "O nama",
+  "visualizer-label": "Vizualizator",
+  "contact-label": "Kontakt",
+  "login-label": "Prijava",
+  "hero": {
+    "title": "Vaš dom, vaša vizija, vaš način",
+    "scroll": "pomakni se dolje ↓",
+    "visualizer": "Vizualizator",
+    "about": "O nama"
+  },
+  "login": {
+    "title": "Prijava",
+    "heading": "Prijavite se",
+    "username": "Korisničko ime",
+    "password": "Lozinka",
+    "button": "Prijava",
+    "success": "Uspješno ste se prijavili!",
+    "feature1": "Pratite narudžbe sve do isporuke",
+    "feature2": "Pregled svih narudžbi na jednom mjestu",
+    "feature3": "Stvorite popis želja",
+    "feature4": "Sve vaše informacije na jednom mjestu za ubuduće"
+  },
+  "user": {
+    "title": "Korisnički podaci",
+    "welcome": "Dobrodošli",
+    "reports": "Izvješća",
+    "noReports": "Nema pronađenih izvješća.",
+    "category": "ID kategorije",
+    "role2Title": "Korisnički izbornik",
+    "role2Profile": "Postavke profila",
+    "role2Tickets": "Zahtjevi za podršku",
+    "logout": "Odjava"
+  },
+  "aboutSection": {
+    "title": "Redefiniranje dizajna doma",
+    "description": "Ovdje smo da promijenimo način na koji razmišljate o uređenju interijera. Uz 3D vizualizaciju u stvarnom vremenu i jednostavno sučelje, dizajniranje vašeg prostora postaje kreativno putovanje – a ne izazov."
+  },
+  "contact": {
+    "title": "Kontaktirajte nas",
+    "subtitle": "za pomoć",
+    "interest": "Zanima me...",
+    "fullName": "Puno ime",
+    "email": "Vaša email adresa",
+    "message": "Poruka",
+    "send": "Pošalji"
+  },
+  "visualizer": {
+    "delete": "Obriši model",
+    "rotate": "Rotiraj model",
+    "toggleLights": "Uključi/isključi svjetla",
+    "customizeRoom": "Prilagodi prostoriju",
+    "done": "Gotovo"
+  },
+  "room": {
+    "width": "Širina",
+    "depth": "Dužina",
+    "height": "Visina zida"
+  },
+  "sidebar": {
+    "customizeRoom": "Prilagodi prostoriju",
+    "whatToCustomize": "Što želiš prilagoditi?",
+    "modelsForCategory": "Modeli",
+    "loading": "Učitavanje...",
+    "noModels": "Nema modela za ovu kategoriju."
+  },
+  "categories": {
+    "closet": "Korpusi",
+    "table": "Stolovi",
+    "couch": "Kauči",
+    "bed": "Kreveti",
+    "nightstand": "Noćni ormarići",
+    "chair": "Stolice",
+    "lamp": "Svjetla"
+  }
+}

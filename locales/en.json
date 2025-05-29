@@ -1,0 +1,76 @@
+{
+  "about": "About",
+  "visualizer-label": "Visualizer",
+  "contact-label": "Contact",
+  "login-label": "Login",
+  "hero": {
+    "title": "Your Home, Your Vision, Your Way",
+    "scroll": "scroll down ↓",
+    "visualizer": "Visualizer",
+    "about": "About"
+  },
+  "login": {
+    "title": "Login",
+    "heading": "Sign in",
+    "username": "Username",
+    "password": "Password",
+    "button": "Login",
+    "success": "Successfully logged in!",
+    "feature1": "Track orders until delivery",
+    "feature2": "View all orders in one place",
+    "feature3": "Create wishlists",
+    "feature4": "All your data in one place for future use"
+  },
+  "user": {
+    "title": "User Info",
+    "welcome": "Welcome",
+    "reports": "Reports",
+    "noReports": "No reports found.",
+    "category": "Category ID",
+    "role2Title": "User Menu",
+    "role2Profile": "Profile Settings",
+    "role2Tickets": "Support Tickets",
+    "logout": "Logout"
+  },
+  "aboutSection": {
+    "title": "Redefining Home Design",
+    "description": "We’re here to change how you think about interior planning. With real-time 3D visuals and an easy-to-use interface, designing your space becomes a creative journey – not a challenge."
+  },
+  "contact": {
+    "title": "Contact us",
+    "subtitle": "for help",
+    "interest": "I'm interested in...",
+    "fullName": "Full Name",
+    "email": "Your Email Address",
+    "message": "Message",
+    "send": "Send"
+  },
+  "visualizer": {
+    "delete": "Delete model",
+    "rotate": "Rotate model",
+    "toggleLights": "Toggle Lights",
+    "customizeRoom": "Customize Room",
+    "done": "Done"
+  },
+  "room": {
+    "width": "Width",
+    "depth": "Depth",
+    "height": "Wall Height"
+  },
+  "sidebar": {
+    "customizeRoom": "Customize Room",
+    "whatToCustomize": "What do you want to customize?",
+    "modelsForCategory": "Models",
+    "loading": "Loading...",
+    "noModels": "No models for this category."
+  },
+  "categories": {
+    "closet": "Closets",
+    "table": "Tables",
+    "couch": "Couches",
+    "bed": "Beds",
+    "nightstand": "Nightstands",
+    "chair": "Chairs",
+    "lamp": "Lights"
+  }
+}
