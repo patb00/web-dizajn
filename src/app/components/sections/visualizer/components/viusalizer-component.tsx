@@ -62,9 +62,20 @@ export default function VisualizerCanvas({ lightsOn }: VisualizerCanvasProps) {
       }}
     >
       <a.ambientLight intensity={ambientIntensity} />
+
       <a.directionalLight
         position={[5, 10, 5]}
         intensity={directionalIntensity}
+        castShadow
+        shadow-mapSize-width={1024}
+        shadow-mapSize-height={1024}
+      />
+
+      <pointLight position={[0, 5, 0]} intensity={0.6} distance={30} />
+      <hemisphereLight
+        /* skyColor={"#ffffff"} */
+        groundColor={"#444444"}
+        intensity={0.5}
       />
       <Room />
       <OrbitControls ref={orbitRef} makeDefault />
