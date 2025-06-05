@@ -46,7 +46,7 @@ export default function VisualizerSection() {
       id="visualizer"
     >
       <div className="flex-1 flex items-center justify-center relative">
-        <div className="w-[70%] h-[100%] aspect-video bg-[#f5f5f5]">
+        <div className="w-[80%] h-full flex items-center justify-center relative">
           <VisualizerCanvas lightsOn={lightsOn} />
         </div>
 
@@ -94,10 +94,12 @@ export default function VisualizerSection() {
         </button>
       </div>
 
-      <ModelSidebar
-        onModelSelect={handleModelSelect}
-        showRoomControls={showRoomControls}
-      />
+      <div className="w-[20%] h-full">
+        <ModelSidebar
+          onModelSelect={handleModelSelect}
+          showRoomControls={showRoomControls}
+        />
+      </div>
     </section>
   );
 }

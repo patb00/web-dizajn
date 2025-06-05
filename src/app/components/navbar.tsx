@@ -12,11 +12,13 @@ export default function Navbar() {
   const [showDrawer, setShowDrawer] = useState(false);
   const [loggedInUsername, setLoggedInUsername] = useState<string | null>(null);
   const [userRole, setUserRole] = useState<number | null>(null);
+  const [userId, setUserId] = useState<number | null>(null);
   const { t, i18n } = useTranslation();
 
-  const handleLoginSuccess = (username: string, role: number) => {
+  const handleLoginSuccess = (username: string, role: number, id: number) => {
     setLoggedInUsername(username);
     setUserRole(role);
+    setUserId(id);
   };
 
   const handleLogout = () => {
@@ -84,6 +86,7 @@ export default function Navbar() {
           onOpenChange={setShowDrawer}
           username={loggedInUsername}
           role={userRole ?? 1}
+          userId={userId ?? 1}
           onLogout={handleLogout}
         />
       )}

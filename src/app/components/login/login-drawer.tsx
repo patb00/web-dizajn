@@ -11,7 +11,7 @@ import { useTranslation } from "react-i18next";
 interface LoginDrawerProps {
   open: boolean;
   onOpenChange: (open: boolean) => void;
-  onLoginSuccess: (username: string, role: number) => void;
+  onLoginSuccess: (username: string, role: number, id: number) => void;
 }
 
 export default function LoginDrawer({
@@ -37,7 +37,7 @@ export default function LoginDrawer({
       toast.error(result.error);
     } else {
       toast.success(t("login.success"));
-      onLoginSuccess(result.user.username, result.user.role_id);
+      onLoginSuccess(result.user.username, result.user.role_id, result.user_id);
       onOpenChange(false);
     }
   };

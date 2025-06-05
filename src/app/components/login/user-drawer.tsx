@@ -4,12 +4,14 @@ import { Button } from "@/components/ui/button";
 import { Drawer, DrawerContent, DrawerTitle } from "@/components/ui/drawer";
 import { useFetchReports } from "../sections/contact/hooks/useFetchReports";
 import { useTranslation } from "react-i18next";
+import { LicenseProgressCard } from "./components/license-progress-card";
 
 interface UserDrawerProps {
   open: boolean;
   onOpenChange: (open: boolean) => void;
   username: string;
   role: number;
+  userId: number;
   onLogout: () => void;
 }
 
@@ -19,6 +21,7 @@ export default function UserDrawer({
   username,
   role,
   onLogout,
+  userId,
 }: UserDrawerProps) {
   const { data: reportsData } = useFetchReports();
   const { t } = useTranslation();
@@ -73,12 +76,9 @@ export default function UserDrawer({
         )}
 
         {role === 2 && (
-          <div>
+          <div className="space-y-4">
             <h3 className="font-semibold mb-3">{t("user.role2Title")}</h3>
-            <ul className="list-disc list-inside mb-6">
-              <li>{t("user.role2Profile")}</li>
-              <li>{t("user.role2Tickets")}</li>
-            </ul>
+            <LicenseProgressCard userId={userId} />
           </div>
         )}
 

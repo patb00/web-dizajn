@@ -72,5 +72,10 @@
     "nightstand": "Noćni ormarići",
     "chair": "Stolice",
     "lamp": "Svjetla"
+  },
+  "license": {
+    "title": "Tvoja licenca",
+    "range": "od {{from}} do {{to}}",
+    "used": "Iskorišteno: {{percent}}%"
   }
 }

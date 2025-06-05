@@ -72,5 +72,10 @@
     "nightstand": "Nightstands",
     "chair": "Chairs",
     "lamp": "Lights"
+  },
+  "license": {
+    "title": "Your License",
+    "range": "from {{from}} to {{to}}",
+    "used": "Used: {{percent}}%"
   }
 }

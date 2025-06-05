@@ -53,7 +53,7 @@ export default function ModelSidebar({
   const totalPrice = placedModels.reduce((sum, m) => sum + (m.price || 0), 0);
 
   return (
-    <aside className="w-[340px] bg-white border-l border-gray-200 flex flex-col">
+    <aside className="w-full h-full bg-white border-l border-gray-200 flex flex-col">
       <div className="flex items-center justify-between px-6 py-4 shadow-md">
         <div className="text-2xl font-semibold text-black">{totalPrice} €</div>
         <Menu className="text-gray-700" size={20} />
